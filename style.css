@@ -16,7 +16,7 @@ body {
 }
 
 * {
-    out-line: 1px;
+    outline: #000 solid 3px;
 }
 
 header {
