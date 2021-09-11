@@ -14,21 +14,31 @@ body {
         "... ...... ...... ...... ...... ...... ..."
         / auto 150px auto 1fr auto 200px auto;
 }
+
+* {
+    out-line: 1px;
+}
+
 header {
     grid-area: header;
 }
+
 main {
     grid-area: center;
 }
+
 nav {
     grid-area: left;
 }
+
 aside {
     grid-area: right;
 }
+
 footer {
     grid-area: footer;
 }
+
 @media screen and (max-width: 1000px) {
     body {
         grid-template:
