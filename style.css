@@ -15,29 +15,36 @@ body {
         / 10px 150px 10px 1fr 10px 200px 10px;
 }
 
-* {
-    border: 1px solid #000;
-    border-radius: 5px;
 }
 
 header {
     grid-area: header;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 main {
     grid-area: center;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 nav {
     grid-area: left;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 aside {
     grid-area: right;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 footer {
     grid-area: footer;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 1000px) {
