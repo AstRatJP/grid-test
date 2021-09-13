@@ -15,8 +15,6 @@ body {
         / 10px 150px 10px 1fr 10px 200px 10px;
 }
 
-}
-
 header {
     grid-area: header;
     border: 1px solid #000;
