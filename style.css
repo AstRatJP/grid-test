@@ -43,6 +43,7 @@ footer {
     grid-area: footer;
     border: 1px solid #000;
     border-radius: 5px;
+    background-color: #000;
 }
 
 @media screen and (max-width: 1000px) {
@@ -50,8 +51,8 @@ footer {
         grid-template:
             "header" 150px
             "center" 1fr
-            "left  "
-            "right "
+            "left  " auto
+            "right " auto
             "footer" 300px;
     }
 }
